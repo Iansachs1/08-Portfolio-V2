@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="02-Homework/Assets/CSS/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="02-Homework/Assets/CSS/portfolio.css">
+    <title>Ian Portfolio</title>
+</head>
+<body>
+   <!-- Header Section starting with semantic tag for accessability-->
+   <header id="header">
+    <!-- Bootstrap grid layout -->
+    <div class="container">
+
+      <div class="row">
+        <!-- Frist column for my name in the header -->
+        <div id="name" class="col-sm-4 col-md-4 col-lg-2">
+          <h3>
+            Ian Sachs
+          </h3>
+        </div>
+        <!-- empty space to layout the page -->
+        <div class="col-sm-2 col-md-4 col-lg-7"></div>
+        <!-- navbar links to the other pages -->
+        <div id="nav" class="col-sm-6 col-md-4 col-lg-3">
+
+          <span>
+    
+            <a class="horizontal first" href="index.html">About</a>
+
+            <a class="horizontal" href="portfolio.html">Portfolio</a>
+
+            <a class="horizontal" href="contact.html">Contact</a>
+
+          </span>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+       <!-- Card Section Starting with grid sytem to size the card -->
+      <div class="container">
+        
+        <div class="row">    
+
+          <div class="col-sm-12 col-lg-7">  
+            <!-- Bootstrap class to make a premade card -->
+            <div id="PortfolioCard" class="card">
+    
+              <div class="card-body">
+                <!-- card header -->
+                <div id="CardTitle">
+                  
+                  <h4>Portfolio</h4>
+    
+                </div>
+
+                <div id="PortCards" class="container">
+
+                    <div class="row">
+
+                        <div class="col-sm PortImg">
+                            <img class="portImgFilled" src="./02-Homework/Assets/Images/BudgetSavers.png" alt="Image of budget Savers live site">
+                            <a href="https://github.com/Iansachs1/BUDGET-BALLER-" class="githubLink">Github</a>
+                            <a href="https://iansachs1.github.io/BUDGET-BALLER-/index.html" class="liveSiteLink">Live Site</a>
+                            <div class="PortCaption">Budget Savers</div>
+                        </div>
+
+                        <div class="col-sm PortImg WeatherDashboard">
+                          <a href="https://github.com/Iansachs1/06-WeatherDashboard" class="githubLink">Github</a>
+                            <a href="https://iansachs1.github.io/06-WeatherDashboard/" class="liveSiteLink">Live Site</a>
+                          <img class="portImgFilled" src="./02-Homework/Assets/Images/WeatherDashboard.png" alt="Image of budget Savers live site">
+                                <div class="PortCaption">Weather Dashboard</div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-sm PortImg DayPlanner">
+                          <a href="https://github.com/Iansachs1/05-Day-Planner" class="githubLink">Github</a>
+                            <a href="https://iansachs1.github.io/05-Day-Planner/" class="liveSiteLink">Live Site</a>
+                          <img class="portImgFilled" src="./02-Homework/Assets/Images/DayPlanner.png" alt="Image of budget Savers live site">
+                            
+                            <div class="PortCaption">Day Planner</div>
+                        </div>
+
+                        <div class="col-sm PortImg">
+                            <div class="PortCaption">Info Widget</div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        
+                        <div class="col-sm PortImg">
+                            <div class="PortCaption">Rock Paper Scissors</div>
+                        </div>
+
+                        <div class="col-sm PortImgBlank">
+
+                        </div>
+
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- sticky footer -->
+      <footer class="footer">
+        <p>&copy; Copyright</p>
+      </footer>
+</body>
+</html>
